@@ -16,9 +16,7 @@ Includes a light (🌸 CUTE) and dark (💻 TECH) theme toggle.
 - Vanilla JavaScript
 - CoinGecko API
 
-## 📦 How to Run
-1. Download or clone the repo
-2. Open `index.html` in your browser
+
 
 
 ---
