@@ -67,3 +67,44 @@ cd crypto-price-tracker
 
 ---
 
+## Usage
+
+1. Open the app — cryptocurrency cards load automatically on launch
+2. Use the **search bar** to filter coins by name in real time
+3. Click the **theme toggle** to switch between dark and light mode
+4. If the API fails, an error message is shown without breaking the layout
+
+---
+
+## API Reference
+
+This project uses the [CoinGecko Public API](https://docs.coingecko.com/reference/introduction) — free to use, no API key required.
+
+**Endpoint:**
+```
+GET https://api.coingecko.com/api/v3/coins/markets
+    ?vs_currency=usd
+    &order=market_cap_desc
+    &per_page=50
+    &page=1
+```
+
+**Data returned per coin:** name, symbol, current price, market cap, 24h price change, total volume, rank.
+
+> The free tier has a rate limit. If data does not load, wait a moment and refresh.
+
+---
+
+## Screenshots
+
+> *Add your own screenshots here once the project is running.*
+
+```
+Steps to add screenshots:
+1. Take a screenshot of your running application
+2. Upload it to your repo (e.g. inside an /assets folder)
+3. Replace this section with: ![App Screenshot](assets/screenshot.png)
+```
+
+---
+
