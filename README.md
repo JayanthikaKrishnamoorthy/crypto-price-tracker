@@ -107,4 +107,34 @@ Steps to add screenshots:
 ```
 
 ---
+## Future Improvements
+
+- [ ] Price history charts using Chart.js
+- [ ] Favourites / watchlist saved to `localStorage`
+- [ ] Currency switcher (USD, EUR, INR)
+- [ ] Sort by price, rank, or 24h change
+- [ ] Portfolio tracker with custom holdings input
+
+---
+
+## Learning Outcomes
+
+- Consuming a public REST API using the Fetch API and handling asynchronous JavaScript
+- Dynamically generating and updating HTML elements through DOM manipulation
+- Implementing CSS glassmorphism with `backdrop-filter` and `rgba` layering
+- Building a theme-switching system using CSS custom properties (variables)
+- Writing responsive layouts with CSS Grid and media queries
+- Handling real-world API errors gracefully without crashing the UI
+
+---
+
+## Author
+
+**Jayanthika**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JayanthikaKrishnamoorthy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jayanthika-k)
+
+---
+
 
