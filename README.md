@@ -137,4 +137,4 @@ Steps to add screenshots:
 
 ---
 
-
+*Built with vanilla JavaScript — no frameworks, just fundamentals.*
