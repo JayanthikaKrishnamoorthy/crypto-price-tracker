@@ -1,25 +1,69 @@
-# 💰 Crypto Price Tracker
+# Crypto Price Tracker
 
-A lightweight and responsive web app to track live cryptocurrency prices using the [CoinGecko API](https://www.coingecko.com/en/api).  
-Includes a light (🌸 CUTE) and dark (💻 TECH) theme toggle.
+> Developed a responsive cryptocurrency tracking web application using HTML, CSS, and JavaScript that fetches and displays real-time market data from the CoinGecko API. Implemented dynamic search filtering, dark/light theme toggling, and glassmorphism-based UI design for an interactive user experience across devices.
 
-## 🔧 Features
-- Live market data (name, price, change %, logo)
-- Search filter
-- Mobile-responsive design
-- Light & Dark mode
-- Glassmorphism UI with themed hover effects
-
-## 🌐 Tech Stack
-- HTML5
-- CSS3 (custom themes + hover effects)
-- Vanilla JavaScript
-- CoinGecko API
-
-
-
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![CoinGecko](https://img.shields.io/badge/CoinGecko_API-8DC63F?style=flat-square&logoColor=white)
 
 ---
 
-Made with 💜 by Jayanthika Krishnamoorthy
+## Overview
+
+**Crypto Price Tracker** is a front-end web application that displays live cryptocurrency market data in a clean, card-based layout. Built entirely with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies. The app connects to the free CoinGecko API to retrieve up-to-date prices, market caps, and 24-hour changes, then renders them dynamically into glassmorphism-styled cards.
+
+---
+
+## Features
+
+- **Real-time data** — Fetches live market data from the CoinGecko API on page load
+- **Live search** — Filter cryptocurrencies instantly as you type
+- **Dark / Light mode** — Toggle themes with persistent visual feedback
+- **Glassmorphism UI** — Frosted-glass card design with layered transparency
+- **Responsive layout** — Adapts cleanly across desktop, tablet, and mobile
+- **Interactive hover effects** — Subtle animations on card interaction
+- **Error handling** — Displays a user-friendly message if the API call fails
+- **Dynamic rendering** — All cards are generated via JavaScript DOM manipulation
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure and semantic markup |
+| CSS3 | Glassmorphism styling, animations, theme switching |
+| JavaScript (Vanilla) | API calls, DOM rendering, search and toggle logic |
+| CoinGecko API | Live cryptocurrency market data |
+
+---
+
+## Project Structure
+
+```
+crypto-price-tracker/
+├── index.html      # Application structure
+├── style.css       # Styling, themes, and animations
+└── script.js       # API integration and interactivity
+```
+
+---
+
+## Getting Started
+
+No installation or build step required.
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/JayanthikaKrishnamoorthy/crypto-price-tracker.git
+cd crypto-price-tracker
+```
+
+**2. Open the app**
+
+- Double-click `index.html` to open directly in your browser, **or**
+- Use the VS Code **Live Server** extension for auto-reload during development
+
+---
 
